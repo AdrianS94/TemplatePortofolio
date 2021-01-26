@@ -311,7 +311,7 @@ p {
     rgba(31, 104, 190, 1) 0%,
     rgba(64, 182, 165, 1) 100%
   );
-  border-radius: 150px;
+  border-radius: 50%;
   color: rgb(255, 255, 255);
 }
 #projects .project-info h1 {
@@ -351,27 +351,54 @@ p {
 /* Buttons */
 .all-buttons {
   display: flex;
-  margin-top: 40px;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
-.all-buttons button {
+.all-buttons .btnfirst {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 15px;
+  background: white;
+  padding: 10px;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+}
+.all-buttons .btnsecond {
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  margin-top: 15px;
+  background: white;
+  padding: 10px;
+  border-radius: 30px;
+}
+/*.all-buttons button {
   font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
+  background: white;
   border: none;
   padding: 10px;
   border-radius: 20px;
   cursor: pointer;
   transition: 0.4s;
+}*/
+.all-buttons h3:hover {
+  background: linear-gradient(
+    to right,
+    rgba(31, 104, 190, 1) 0%,
+    rgba(64, 182, 165, 1) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
 }
-.all-buttons button:hover {
-  background: #485563;
-  color: white;
-}
-.all-buttons button:focus {
+.all-buttons .btnfirst,
+.all-buttons .btnsecond:focus {
   text-decoration: none;
   outline-style: none;
-}
-.all-buttons .btn1 {
-  margin-left: 40px;
 }
 
 /* About Section */
