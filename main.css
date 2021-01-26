@@ -359,8 +359,8 @@ p {
   text-align: center;
   font-size: 2rem;
   margin-top: 30px;
-  margin-right: 17rem;
-  width: 200px;
+  margin-right: 12rem;
+  width: 185px;
   background: white;
   padding: 10px;
   border-radius: 30px;
@@ -387,7 +387,7 @@ p {
   -webkit-background-clip: text;
 }
 .all-buttons h3:hover {
-  text-transform: uppercase;
+  font-style: oblique;
 }
 .all-buttons .btnfirst:focus,
 .all-buttons .btnsecond:focus {
