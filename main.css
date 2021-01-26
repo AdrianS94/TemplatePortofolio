@@ -377,7 +377,7 @@ p {
   padding: 10px;
   border-radius: 30px;
 }
-.all-buttons h3:hover {
+.all-buttons h3 {
   background: linear-gradient(
     to right,
     rgba(31, 104, 190, 1) 0%,
@@ -385,9 +385,11 @@ p {
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+.all-buttons h3:hover {
   text-transform: uppercase;
 }
-.all-buttons .btnfirst,
+.all-buttons .btnfirst:focus,
 .all-buttons .btnsecond:focus {
   text-decoration: none;
   outline-style: none;
