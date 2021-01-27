@@ -23,3 +23,8 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+function attention(event) {
+	event.preventDefault();
+	alert('If you want my resume, please contact me!');
+};
